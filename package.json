@@ -1,0 +1,33 @@
+{
+  "name": "coworker-next",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "dev:next": "next dev",
+    "dev:api": "npm --prefix server run dev",
+    "dev:full": "concurrently -k -n NEXT,API -c cyan,green \"next dev\" \"npm --prefix server run dev\"",
+    "build": "next build",
+    "build:all": "next build && npm --prefix server run build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.12.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21",
+    "@types/leaflet.markercluster": "^1.5.6",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "concurrently": "^9.0.1",
+    "typescript": "^5.9.2"
+  }
+}

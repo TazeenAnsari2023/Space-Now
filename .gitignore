@@ -1,0 +1,69 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+client/dist/
+server/dist/
+next/
+.next/
+
+# Caches
+.cache/
+.vite/
+.turbo/
+
+# Vercel
+.vercel/
+
+# Environment files
+.env
+.env.*
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+!.env.example
+!client/.env.example
+!server/.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python (optional ML scripts)
+__pycache__/
+*.pyc
+
+# Upload/storage
+uploads/
+
+# Local DB artifacts
+*.mongodb

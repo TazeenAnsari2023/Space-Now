@@ -1,0 +1,101 @@
+body.light {
+  --bg: #f3f7f6;
+  --surface: #ffffff;
+  --surface-muted: #f8fbfa;
+  --text: #182126;
+  --text-muted: #5d6974;
+  --primary: #0f766e;
+  --primary-strong: #115e59;
+  --danger: #c2410c;
+  --line: #d6e2df;
+  --shadow: 0 14px 30px rgba(10, 27, 33, 0.08);
+}
+
+body.dark {
+  --bg: #0f1720;
+  --surface: #16222b;
+  --surface-muted: #1c2a35;
+  --text: #ecf2f7;
+  --text-muted: #a4b2c0;
+  --primary: #34d399;
+  --primary-strong: #10b981;
+  --danger: #fb923c;
+  --line: #2b3c4a;
+  --shadow: 0 14px 30px rgba(2, 9, 15, 0.4);
+}
+
+body.dark a {
+  color: #7be0c6;
+}
+
+body.dark .topbar {
+  background: rgba(15, 23, 32, 0.85);
+}
+
+body.dark .owner-sidebar {
+  background: #132129;
+}
+
+body.dark .leaflet-popup-content-wrapper,
+body.dark .leaflet-popup-tip {
+  background: #132129;
+  color: #ecf2f7;
+}
+
+body.dark input,
+body.dark select,
+body.dark textarea,
+body.dark .control-input {
+  color: #ffffff;
+}
+
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+  color: #b8c7d4;
+  opacity: 1;
+}
+
+body.dark .page-title {
+  color: #f2f8ff;
+}
+
+body.dark .page-subtitle {
+  color: #d7ff6f;
+}
+
+body.dark .nav-link {
+  color: #dff9ff;
+  border: 1px solid transparent;
+  transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+body.dark .nav-link:hover {
+  background: rgba(188, 255, 84, 0.12);
+  border-color: rgba(202, 255, 116, 0.45);
+  color: #ecffb3;
+  text-decoration: none;
+}
+
+body.dark .topbar {
+  border-bottom: 1px solid rgba(192, 255, 117, 0.22);
+}
+
+/* Requested: brand text pure white in dark theme */
+body.dark .brand {
+  color: #ffffff;
+}
+
+/* Requested: footer same look as navbar in dark theme */
+body.dark .site-footer {
+  background: rgba(15, 23, 32, 0.85);
+  border-top: 1px solid rgba(192, 255, 117, 0.22);
+}
+
+body.dark .site-footer p {
+  color: #ffffff;
+}
+
+/* User dropdown hover: requested black text */
+.user-dropdown a:hover {
+  color: #000000 !important;
+}
